@@ -4,7 +4,7 @@ bio:                'Another software developer in space.'
 description:        "Another software developer in space."
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/rocket-ship.png'
+logo:               'assets/img/avatar.png'
 background:         
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
