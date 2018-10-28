@@ -5,7 +5,7 @@ description:        "Another software developer in space."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/avatar.png'
-background:         
+background:
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://gurkanakdeniz.github.io
@@ -41,6 +41,7 @@ disqus_shortname:   name
 #twitter:            username
 #facebook:           username
 github-url:         gurkanakdeniz
+github-gist-url:    gurkanakdeniz
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
