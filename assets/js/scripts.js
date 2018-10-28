@@ -71,5 +71,5 @@ $(document).ready(function() {
           hotspot: 'top left'
       });
     };
-    setTimeout(cursor, 8000);
+    setTimeout(cursor, 3000);
 });
