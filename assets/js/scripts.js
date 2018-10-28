@@ -50,23 +50,26 @@ $(document).ready(function() {
       tError: '<a href="%url%">Image #%curr%</a> could not be loaded.',
     },
     removalDelay: 300, // Delay in milliseconds before popup is removed
-    // Class that is added to body when popup is open. 
+    // Class that is added to body when popup is open.
     // make it unique to apply your CSS animations just to this exact popup
     mainClass: 'mfp-fade'
   });
 
-    $('html').awesomeCursor('fighter-jet', {
-        color: '#627384',
-        size: 24,
-        rotate: 315,
-        flip: 'horizontal',
-        hotspot: 'top left'
-    });
-    $('button, a').awesomeCursor('fighter-jet', {
-        color: '#FF4136',
-        size: 24,
-        rotate: 315,
-        flip: 'horizontal',
-        hotspot: 'top left'
-    });
+    var cursor = function(){
+      $('html').awesomeCursor('fighter-jet', {
+          color: '#627384',
+          size: 24,
+          rotate: 315,
+          flip: 'horizontal',
+          hotspot: 'top left'
+      });
+      $('button, a').awesomeCursor('fighter-jet', {
+          color: '#FF4136',
+          size: 24,
+          rotate: 315,
+          flip: 'horizontal',
+          hotspot: 'top left'
+      });
+    };
+    setTimeout(cursor, 8000);
 });
