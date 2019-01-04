@@ -70,6 +70,17 @@ $(document).ready(function() {
       }
   });
 
+  try {
+    $('#circleContainer').addClass('sticky-position');
+    if((navigator.platform.indexOf("iPhone") != -1) ||
+    (navigator.platform.indexOf("iPod") != -1)){
+       $('#circleContainer').removeClass('sticky-position');
+       $('#circleContainer').addClass('ios-position');
+    }
+  } catch (e) {
+  }
+
+
     var cursor = function(){
       $('html').awesomeCursor('fighter-jet', {
           color: '#627384',
