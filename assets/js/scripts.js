@@ -55,6 +55,21 @@ $(document).ready(function() {
     mainClass: 'mfp-fade'
   });
 
+  var eventFired = 0;
+  if ($(window).width() < 750) {
+    $('#socialId').addClass('social-div-scroll');
+  }
+
+  $(window).on('resize', function() {
+      if (!eventFired) {
+          if ($(window).width() < 750) {
+              $('#socialId').addClass('social-div-scroll');
+          } else {
+              $('#socialId').removeClass('social-div-scroll');
+          }
+      }
+  });
+
     var cursor = function(){
       $('html').awesomeCursor('fighter-jet', {
           color: '#627384',
