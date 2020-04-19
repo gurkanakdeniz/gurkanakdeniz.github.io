@@ -1,36 +1,12 @@
 ---
 layout: page
-title: About the Theme
+title: About 
 tags: [about, Jekyll, theme, rocket, space]
-date: 2016-03-21
+date: 2020-04-19
 comments: false
 ---
-    
-<center><a href="http://gurkanakdeniz.github.io/"><b>Rocket Space</b></a> is a jekyll theme.</center>
 
-## Features
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
+Hi, I’m Gürkan. I’ve been interested in new technologies since i was a child and i wanted this to be my future job when i grow up. I feel free when i write code and i like it. I’m trying to improve my skills and i chose Computer Engineering as my job to have more ideas and learn different areas. To find and get to know new technologies i used different platforms to develop my university projects. I am an active Gnu Linux user for a long time, but lately at university i have been in a project about E-commerce on .Net platform and used NopCommerce. After graduation i am working as a Java Developer and the moment also develop new codes on Spring Framework.
 
-## Preview
+<center><a href="https://github.com/gurkanakdeniz/rocket-space/"><b>Rocket Space</b></a> is a jekyll theme.</center>
 
-{% capture images %}
-https://raw.githubusercontent.com/gurkanakdeniz/rocket-space/master/assets/img/screenshots/home1.png
-https://raw.githubusercontent.com/gurkanakdeniz/rocket-space/master/assets/img/screenshots/post1.png
-{% endcapture %}
-{% include gallery images=images caption="Screenshots of Rocket Space Theme" cols=2 %}
-
-See a [live version of Rocket Space](http://gurkanakdeniz.github.io/) hosted on GitHub.
-
-## Getting Started
-
-To learn how to install and use this theme check out the [Setup Guide](http://gurkanakdeniz.github.io/rocket-space-theme/) for more information.
-      
-[Install Rocket Space](https://github.com/gurkanakdeniz/rocket-space){: .btn}
