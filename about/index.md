@@ -12,5 +12,5 @@ Hi, I’m Gürkan. I’ve been interested in new technologies since i was a chil
 
 <h4><a style="float:right" class="social-btn" href="http://linkedin.com/in/gürkanakdeniz" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-linkedin"></i></a> <a style="float:right" class="social-btn" href="http://github.com/gurkanakdeniz" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-github"></i></a><a style="float:right" class="social-btn" href="http://gist.github.com/gurkanakdeniz" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-github-alt"></i></a></h4>
 
-<center><a href="https://github.com/gurkanakdeniz/rocket-space/"><b>Rocket Space</b></a> is a jekyll theme.</center>
+<center style="padding-top: 5em;"><a href="https://github.com/gurkanakdeniz/rocket-space/"><b>Rocket Space</b></a> is a jekyll theme.</center>
 
