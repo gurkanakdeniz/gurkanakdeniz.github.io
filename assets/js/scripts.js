@@ -97,5 +97,5 @@ $(document).ready(function() {
           hotspot: 'top left'
       });
     };
-    setTimeout(cursor, 3000);
+    setTimeout(cursor, 1000);
 });
